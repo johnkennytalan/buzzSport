@@ -1,0 +1,62 @@
+/*====================INDEX PAGE================= */
+.main-showcase-container,
+#main-grid-container,
+.main-editor-container{
+   padding: 0 20px;
+}
+.footer-content{
+   padding: 0 10px;
+}
+.navbar ul{
+   border: none;
+}
+.navbar a i{
+   display: none;
+}
+.showcase .showcase-container{
+   grid-template-columns: 1fr;
+   gap: 2rem;
+}
+/* ARTICLE GRID CONTENT */
+.grid-content{
+   grid-template-columns: 1fr;
+}
+.grid-content>*:nth-child(2),
+.grid-content>*:nth-child(5){
+   display: flex;
+   flex-direction: column-reverse;
+}
+/* WRITERS */
+.container .grid-editor{
+   grid-template-columns: 1fr;
+}
+/* FOOTER */
+.footer-content{
+   grid-template-columns: 1fr;
+}
+.footer-content section{
+   border-bottom: 1px solid gray;
+}
+.footer-content section:last-child{
+   border: none;
+}
+.footer-content>*:nth-child(3){
+   text-align: center;
+}
+.footer-content .site-links ul li{
+   border: none;
+}
+.footer-content .site-links ul li a{
+   border-bottom: 2px solid var(--secondary-color);
+}
+/* ==============ABOUT PAGE============== */
+.about-grid{
+   grid-template-columns: 1fr;
+}
+.about-img img{
+   display: none;
+}
+/* ======articles specific======= */
+.article-container{
+   grid-template-columns: 1fr;
+}
